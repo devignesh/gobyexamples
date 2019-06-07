@@ -1,0 +1,1 @@
+Map program is like array it execute with map key and their values..
