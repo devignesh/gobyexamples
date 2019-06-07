@@ -1,0 +1,1 @@
+Pointer is nothing but of address of another variable it keep the value from the address of the another variable & || *.
