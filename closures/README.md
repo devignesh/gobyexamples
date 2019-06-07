@@ -1,0 +1,1 @@
+It is a anonymous function it refers the variables from outside of the body and it assign to the reference variables.
