@@ -1,0 +1,1 @@
+Array declaration and value initialization and array function.

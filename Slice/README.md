@@ -1,0 +1,1 @@
+Slice is same as array type . It declared by empty value with n number.
