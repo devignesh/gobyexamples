@@ -1,0 +1,1 @@
+Constant value declares a const type it stores constant value performs string , character , int and other numeric values.
