@@ -1,0 +1,1 @@
+Recursion is a function call itself is recursion here a factorial program.
