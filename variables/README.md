@@ -1,0 +1,1 @@
+In this program how to use variables in go and their values example string value int value.
