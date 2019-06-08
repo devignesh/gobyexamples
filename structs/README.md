@@ -1,0 +1,1 @@
+Structure is a user defined function it use to grouping data to formed type.
