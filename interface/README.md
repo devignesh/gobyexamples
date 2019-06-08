@@ -1,0 +1,1 @@
+interface defines a set of abstract methods and it does not contain variables.
