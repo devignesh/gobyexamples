@@ -1,0 +1,1 @@
+channels are pips that connect goroutines u can send values from one goroutine to another goroutines.
