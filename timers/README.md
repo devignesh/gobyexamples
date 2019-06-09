@@ -1,0 +1,1 @@
+Timer will work in channel also it will perform stop any time.
