@@ -1,0 +1,1 @@
+we’ll look at using the sync/atomic package for atomic counters accessed by multiple goroutines.
