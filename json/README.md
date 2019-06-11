@@ -1,0 +1,1 @@
+JSON is a simple data interchange format.it resembles the objects nad lists of javascript. It is most commonly used for communication between web back-ends and JavaScript programs running in the browser
