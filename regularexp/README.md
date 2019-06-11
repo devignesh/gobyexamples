@@ -1,0 +1,1 @@
+Regular exp is a seq of char that defines a search pattern.
