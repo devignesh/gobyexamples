@@ -1,0 +1,1 @@
+A common requirement in programs is getting the number of seconds, milliseconds, or nanoseconds since the Unix epoch.
