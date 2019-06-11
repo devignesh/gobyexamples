@@ -1,0 +1,2 @@
+SHA1 hashes are frequently used to compute short identities for binary or text blobs. For example, the git revision control system uses SHA1s extensively to identify versioned files and directories.
+You can compute other hashes using a similar pattern to the one shown above. For example, to compute MD5 hashes import crypto/md5 and use md5.New().
