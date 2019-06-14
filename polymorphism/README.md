@@ -1,0 +1,2 @@
+A type implements an interface if it provides definitions for all the methods declared in the interface. Let's see how polymorphism is achieved in Go with the help of interfaces.
+A variable of type interface can hold any value which implements the interface. This property of interfaces is used to achieve polymorphism in Go
