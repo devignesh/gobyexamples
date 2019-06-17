@@ -10,7 +10,7 @@ import (
 func main() {
 	http.HandleFunc("/", foo)
 	http.HandleFunc("/dog/", dog)
-	http.HandleFunc("/dog.jpg", chien)
+	http.HandleFunc("/dog.jpg", pic)
 	http.ListenAndServe(":8080", nil)
 }
 
@@ -26,6 +26,6 @@ func dog(w http.ResponseWriter, req *http.Request) {
 	tpl.ExecuteTemplate(w, "vicky.gohtml", nil)
 }
 
-func chien(w http.ResponseWriter, req *http.Request) {
+func pic(w http.ResponseWriter, req *http.Request) {
 	http.ServeFile(w, req, "vicky.jpg")
 }
