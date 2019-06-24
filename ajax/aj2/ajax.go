@@ -19,7 +19,7 @@ func main() {
 }
 
 func index(w http.ResponseWriter, r *http.Request) {
-	tpl.ExecuteTemplate(w, "index.gohtml", nil)
+	tpl.ExecuteTemplate(w, "indexx.gohtml", nil)
 }
 
 func foo(w http.ResponseWriter, r *http.Request) {
