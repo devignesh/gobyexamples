@@ -20,8 +20,8 @@ func createQuery(q interface{}) {
 }
 func main() {  
     o := order{
-        ordId:      456,
-        customerId: 56,
+        ordId:      1,
+        customerId: 2,
     }
     createQuery(o)
 
