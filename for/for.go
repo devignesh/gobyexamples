@@ -1,24 +1,18 @@
-package main
+package main 
+
 import "fmt"
 func main() {
-	for i := 0; i <= 5; i++ {
-		fmt.Println("vicky")
-	} 
-	
-	j := 1
-	for j <= 3 {
-		fmt.Println(j)
-		j = j + 1
-	}
+	i:=1
+	for i<=10000000000000000 {
+		i=i*2
+		fmt.Println(i)
 
-	for {
-        fmt.Println("Vignesh")
-        break
-    }
-	for n := 0; n <= 5; n++ {
-        if n%2 == 0 {
-            continue
-        }
-        fmt.Println(n)
-    }
+		if i%2 == 0{
+			fmt.Println("EVEN NO")
+		}else {
+			fmt.Println("ODD NO")
+		}
+
+		i++;
+	}
 }
