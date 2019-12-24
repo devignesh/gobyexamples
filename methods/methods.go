@@ -19,8 +19,8 @@ func (e Employee) displaySalary() {
 
 func main() {  
     emp1 := Employee {
-        name:     "Sam Adolf",
-        salary:   5000,
+        name:     "vicky",
+        salary:   13000,
         currency: "$",
     }
     emp1.displaySalary() //Calling displaySalary() method of Employee type
