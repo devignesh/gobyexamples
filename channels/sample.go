@@ -11,4 +11,7 @@ func sample() {
 func main() {
 	sample()
 	fmt.Println(runtime.GOOS)
+	v := "vicky"
+	fs := []byte(v)
+	fmt.Println(fs)
 }
