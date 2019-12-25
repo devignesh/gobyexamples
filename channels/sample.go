@@ -13,7 +13,7 @@ func main() {
 	fmt.Println(runtime.GOOS)
 	v := "vicky"
 	fs := []byte(v)
-	fmt.Println(fs)
+	fmt.Println("\t\t", fs)
 	fmt.Printf("%T\n", fs)
 
 	for i := 0; i < len(v); i++ {
