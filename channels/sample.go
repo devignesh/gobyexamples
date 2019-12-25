@@ -17,6 +17,6 @@ func main() {
 	fmt.Printf("%T\n", fs)
 
 	for i := 0; i < len(v); i++ {
-		// fmt.Println("%#U", v[i])
+		fmt.Println("%#U", v[i])
 	}
 }
