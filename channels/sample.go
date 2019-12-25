@@ -14,4 +14,5 @@ func main() {
 	v := "vicky"
 	fs := []byte(v)
 	fmt.Println(fs)
+	fmt.Printf("%T\n", fs)
 }
