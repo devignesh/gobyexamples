@@ -10,4 +10,5 @@ func sample() {
 }
 func main() {
 	sample()
+	fmt.Println(runtime.GOOS)
 }
