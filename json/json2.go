@@ -13,18 +13,19 @@ type User struct {
 }
 
 func main() {
+	value := User{Firstname: "vicky", Lastname: "kumar", Age: 23 }
 	http.HandleFunc("/decode", func(w http.ResponseWriter, r *http.Request) {
-		var user User
-		json.NewDecoder(r.Body).Decode(&user)
+		
+		json.NewDecoder(r.Body).Decode(&value)
 
-		fmt.Fprintf(w, "%s %s is %d years old!", user.Firstname, user.Lastname, user.Age)
+		fmt.Fprintf(w, "%s %s is %d years old!", value.Firstname, value.Lastname, value.Age)
 	})
 
 	http.HandleFunc("/encode", func(w http.ResponseWriter, r *http.Request) {
 		peter := User{
-			Firstname: "John",
-			Lastname:  "Doe",
-			Age:       25,
+			Firstname: "vignesh",
+			Lastname:  "kumar",
+			Age:       23,
 		}
 
 		json.NewEncoder(w).Encode(peter)
