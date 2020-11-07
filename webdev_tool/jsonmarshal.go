@@ -11,6 +11,7 @@ type model struct {
 }
 
 func main() {
+
 	m := model{}
 
 	fmt.Println(m)
