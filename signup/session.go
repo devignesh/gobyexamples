@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/satori/go.uuid"
+	_ "github.com/satori/go.uuid"
 )
 
 func getUser(w http.ResponseWriter, req *http.Request) user {
