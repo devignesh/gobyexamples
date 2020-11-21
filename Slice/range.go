@@ -1,13 +1,13 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
 )
 
 func main() {
-    x := []int{23,24,45,56,67}
+	x := []int{23, 24, 45, 56, 67}
 
-    for ind, val := range x {
-        fmt.Println(ind, val)
-    }
+	for ind, val := range x {
+		fmt.Println(ind, val)
+	}
 }
