@@ -1,2 +1,3 @@
-sample passing data
+sample passing data to func
+
 
