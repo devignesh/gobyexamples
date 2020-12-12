@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"reflect"
+	reflect "reflect"
 )
 
 type order struct {
